@@ -8,6 +8,9 @@ A little handmade desk gadget built around an SSD1306 128×64 OLED display — p
 
 Everything runs non-blocking (no `delay()` in the main logic), so button presses always feel instant and responsive.
 
+<img width="720" height="720" alt="#1" src="https://github.com/user-attachments/assets/95aa040f-11c9-4af9-929a-211cab0cc41c" />
+
+
 ## Hardware
 
 | Component | Pin | Notes |
@@ -23,6 +26,20 @@ Everything runs non-blocking (no `delay()` in the main logic), so button presses
 | TP4056 (or similar) charging/power bank module | — | Charges the 18650 and regulates power to the Nano |
 
 Buttons are wired with `INPUT_PULLUP`, so connect each button between its pin and GND — no external resistors needed.
+
+## Demo
+
+
+https://github.com/user-attachments/assets/a5a17711-d759-410f-90e9-90627505fa6e
+
+
+
+https://github.com/user-attachments/assets/c1e913a0-3cc8-4d8d-989e-85c7e099d6d6
+
+
+
+
+
 
 ## Libraries required
 
